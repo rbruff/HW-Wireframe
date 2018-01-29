@@ -3,12 +3,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
+    color: #777;
 }
 .header{
     width: 960px;
     background-color: #ebebeb;
     margin: auto;
-    padding: 20px;
+    margin-bottom: 10px;
 
 
 
@@ -17,26 +18,33 @@ body{
     width: 960px;
     background-color: #ebebeb;
     margin: auto;
-    padding: 20px;
-    
-
-
+    margin-bottom: 10px;
+    clear: both
 }
+
+.container{
+    width: 960px;
+    margin: auto
+}
+
 .section{
 width: 495px;
 background-color: #ebebeb;
-margin: auto;
+float: left;
 
 }
 .aside{
-    width: 495px;
+    width: 455px;
     background-color: #ebebeb;
-    margin: auto;
+    margin-left: 10px;
+    float: left;
+    
 
 }
 .footer{
     width: 960px;
     background-color: #ebebeb;
     margin: auto;
+    clear: both;
 
 }
