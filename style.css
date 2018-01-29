@@ -10,6 +10,7 @@ body{
     background-color: #ebebeb;
     margin: auto;
     margin-bottom: 10px;
+    padding: 20px 0px;
 
 
 
@@ -19,25 +20,36 @@ body{
     background-color: #ebebeb;
     margin: auto;
     margin-bottom: 10px;
-    clear: both
+    clear: both;
+   padding: 20px 0px;
 }
 
 .container{
     width: 960px;
-    margin: auto
+    margin: auto;
+    overflow: auto;
 }
 
 .section{
 width: 495px;
 background-color: #ebebeb;
 float: left;
+overflow: auto;
+padding: 20px 0px;
 
+}
+.article{
+    background-color: #777;
+    color: #ebebeb;
+    border: black 1px solid;
+    float: left;
 }
 .aside{
     width: 455px;
     background-color: #ebebeb;
     margin-left: 10px;
     float: left;
+    padding: 20px 0px;
     
 
 }
