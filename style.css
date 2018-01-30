@@ -36,13 +36,18 @@ background-color: #ebebeb;
 float: left;
 overflow: auto;
 padding: 20px 0px;
+height: 200px;
 
 }
 .article{
     background-color: #777;
     color: #ebebeb;
-    border: black 1px solid;
-    float: left;
+    position: absolute;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 75px 35px;
+    width: 435px;
+    height: 110px;
 }
 .aside{
     width: 455px;
@@ -50,6 +55,7 @@ padding: 20px 0px;
     margin-left: 10px;
     float: left;
     padding: 20px 0px;
+    height: 200px;
     
 
 }
@@ -58,5 +64,6 @@ padding: 20px 0px;
     background-color: #ebebeb;
     margin: auto;
     clear: both;
+    padding: 20px 0px;
 
 }
