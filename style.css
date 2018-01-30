@@ -45,9 +45,20 @@ height: 200px;
     position: absolute;
     text-align: center;
     padding: 20px 0px;
-    margin: 75px 35px;
-    width: 435px;
+    margin: 75px 10px;
+    width: 475px;
     height: 110px;
+}
+
+.h1{
+    position: absolute;
+    z-index: 5;
+    background-color: #ebebeb;
+    color: #777;
+    margin: 125px 30px;
+    padding: 10px 0px;
+    width: 435px;
+
 }
 .aside{
     width: 455px;
